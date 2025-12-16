@@ -13,9 +13,9 @@ public class Main {
         IO.println(student1);
         IO.println(student2);
 
-        student1.setClassName("C++");
+        student1.setMajor("C++");
         student1.setAge(36);
-        student2.setClassName("Java");
+        student2.setMajor("Java");
         student2.setAge(38);
         IO.println(student1);
         IO.println(student2);

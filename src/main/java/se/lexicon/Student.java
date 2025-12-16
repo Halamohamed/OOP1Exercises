@@ -4,13 +4,13 @@ public class Student {
     private int studentId;
     private String name;
     private int age;
-    private String className;
+    private String major;
 
-    public Student(int studentId, String name, int age, String className) {
+    public Student(int studentId, String name, int age, String major) {
         setStudentId(studentId);
         setName(name);
         setAge(age);
-        setClassName(className);
+        setMajor(major);
     }
 
     public int getStudentId() {
@@ -49,12 +49,13 @@ public class Student {
 
     }
 
-    public String getClassName() {
-        return className;
+
+    public String getMajor() {
+        return major;
     }
 
-    public void setClassName(String className) {
-        this.className = className;
+    public void setMajor(String major) {
+        this.major = major;
     }
 
     @Override
@@ -63,7 +64,7 @@ public class Student {
                 "studentId=" + studentId +
                 ", name='" + name + '\'' +
                 ", age=" + age +
-                ", className='" + className + '\'' +
+                ", major='" + major + '\'' +
                 '}';
     }
 }
