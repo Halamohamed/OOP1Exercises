@@ -5,8 +5,25 @@ package se.lexicon;
 public class Main {
     static void main() {
 
+        //Exercise3 Student
+        Student student1 = new Student(1,"Hala",35,"Java");
+
+        Student student2 = new Student(2, "Ana", 37,"Javascript");
+
+        IO.println(student1);
+        IO.println(student2);
+
+        student1.setClassName("C++");
+        student1.setAge(36);
+        student2.setClassName("Java");
+        student2.setAge(38);
+        IO.println(student1);
+        IO.println(student2);
+
+
+
         //Exercise2 Customer
-        Customer customer1 = new Customer(1,"Hala","hala@email.com");
+        /* Customer customer1 = new Customer(1,"Hala","hala@email.com");
         Customer customer2 = new Customer(2,"Sara", "sara@email.com");
 
         IO.println(customer1);
@@ -21,7 +38,7 @@ public class Main {
         IO.println(customer2);
 
         Customer customer3 = new Customer(2,"Nils", "nils");
-        IO.println(customer3);
+        IO.println(customer3); */
 
 
 
