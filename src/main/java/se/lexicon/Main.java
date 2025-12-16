@@ -5,8 +5,29 @@ package se.lexicon;
 public class Main {
     static void main() {
 
+
+        //Exercise4
+        Product product1 = new Product(1,"milk",23.5);
+        Product product2 = new Product(2,"cheese",95.5);
+
+        IO.println(product1);
+        IO.println(product2);
+        Product product3 = new Product(3,"chocolate",46.5);
+        Product product4 = new Product(4,"fish",105.5);
+        IO.println(product3);
+        IO.println(product4);
+
+        product2.setPrice(109);
+        product2.setName("white cheese");
+
+        product3.setPrice(35.5);
+
+        IO.println(product2);
+        IO.println(product3);
+
+
         //Exercise3 Student
-        Student student1 = new Student(1,"Hala",35,"Java");
+       /* Student student1 = new Student(1,"Hala",35,"Java");
 
         Student student2 = new Student(2, "Ana", 37,"Javascript");
 
@@ -18,7 +39,7 @@ public class Main {
         student2.setMajor("Java");
         student2.setAge(38);
         IO.println(student1);
-        IO.println(student2);
+        IO.println(student2); */
 
 
 
